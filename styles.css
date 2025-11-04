@@ -1,0 +1,186 @@
+/* Nullstill standard marginer */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hoved side-styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;  /* Endre denne for annen bakgrunn */
+    color: #333333;  /* Tekstfarge */
+    line-height: 1.6;
+    transition: background-color 0.5s;  /* Jevn fargeovergang */
+}
+
+/* Beholder som holder alt */
+.container {
+    max-width: 800px;  /* Endre for bredere/smalere */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Overskrift seksjon */
+.header {
+    text-align: center;
+    margin-bottom: 30px;  /* Mellomrom under */
+    padding: 20px;
+    border: 2px solid #2563eb;  /* Blå kant */
+    border-radius: 10px;
+    background-color: white;
+}
+
+#main-title {
+    font-size: 36px;  /* Tittelstørrelse */
+    color: #2563eb;  /* Blå farge */
+    margin-bottom: 10px;
+    transition: font-size 0.3s;  /* Jevn størrelsesendring */
+}
+
+#main-title:hover {
+    color: red;  /* Tekst blir rød */
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666666;  /* Grå farge */
+}
+
+/* Bildebeholder */
+.image-box {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;  /* Mellomrom over og under */
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #10b981;  /* Grønn kant */
+    border-radius: 10px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Innhold seksjon */
+.content {
+    background-color: white;
+    padding: 30px;  /* Innvendig mellomrom */
+    border: 2px solid #f59e0b;  /* Oransje kant */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    color: #1e40af;  /* Mørk blå */
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.content h3 {
+    color: #2563eb;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Avsnitt styling */
+.content p {
+    margin-bottom: 15px;  /* Mellomrom mellom avsnitt */
+    font-size: 16px;
+}
+
+/* Liste styling */
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Tabell styling */
+.simple-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.simple-table th {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.simple-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.simple-table tr:nth-child(even) {
+    background-color: #f9f9f9;  /* Annen hver rad grå */
+}
+
+/* Skjema styling */
+.form-section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Knapp styling */
+.btn {
+    background-color: #3b82f6;  /* Knappfarge */
+    color: white;
+    border: none;
+    padding: 12px 30px;  /* Knappstørrelse */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #2563eb;  /* Mørkere ved hover */
+}
+
+.btn:active {
+    transform: scale(0.95);  /* Blir mindre når trykket */
+    background-color: #1e40af;
+}
+
+/* Lenke styling */
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #3b82f6;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
